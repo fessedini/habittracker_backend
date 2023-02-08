@@ -23,39 +23,39 @@ If you want to download Python or its latest version, you can find it [here](htt
 
 After installing python its recommended to create a virtual environment to keep dependencies required for this project separate from other projects. 
 
-(`python python3 -m venv “Name of the environment`)
+(`python3 -m venv “Name of the environment"`)
 
 Afterwards activate your environment by typing into your terminal:
 
-(`python source “Name of the environment”/bin/activate`)
+(`source “Name of the environment”/bin/activate`)
 
 ### **Requirements**
 
 When you created and activated your virtual environment make sure pip is updated inside of your environment
 
-(`python python -m pip install --upgrade pip`)
+(`python -m pip install --upgrade pip`)
 
 Afterwards install the following requirements:
 
 •	Python 3.11.0 +
 
 •	Rich 12.6.0 +
-(`python pip install rich`)
+(`pip install rich`)
 
 •	Click 8.1.3 +
 
 •	Typer 0.7.0 +
-(`python pip install typer`)
+(`pip install typer`)
 
 •	Questionary 1.10.0 +
-(`python pip install questionary`)
+(`pip install questionary`)
 
 •	Pytest 7.2.0 +
-(`python pip install pytest`)
+(`pip install pytest`)
 
 To make things easiert you can just install the `requirements.txt`-file:
 
-(`python pip install -r /path/to/requirements.txt`)
+(`pip install -r /path/to/requirements.txt`)
 
 ---
 
@@ -63,7 +63,7 @@ To make things easiert you can just install the `requirements.txt`-file:
 
 Working with typer for building a command-line application and especially creating an command-line interface ( CLI ) there is one `start` command to launch the app:
 
-(`python python -m habittracker start`)
+(`python -m habittracker start`)
 
 By doing so you will receive an output like this, as your habittracker is empty:
 
